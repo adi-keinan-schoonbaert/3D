@@ -1,2 +1,2 @@
 # 3D
-Testing IIIF 3D models
+Testing new IIIF spec for 3D models
