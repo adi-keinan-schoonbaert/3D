@@ -1,29 +1,29 @@
 {
   "@context": "http://iiif.io/api/presentation/4/context.json",
-  "id": "https://github.com/adi-keinan-schoonbaert/3D/iiif-manifests/model_origin.json",
+  "id": "https://example.org/iiif/3d/model_origin.json",
   "type": "Manifest",
-  "label": { "en": ["Oracle Bone"] },
-  "summary": { "en": ["This is a model of an Oracle Bone. Viewer should render the model at the scene origin, and then viewer should add default lighting and camera"] },
+  "label": { "en": ["Oracle Bone Or 7694/1595"] },
+  "summary": { "en": ["An inscribed oracle bone (jia gu 甲骨) from the Couling-Chalfant collection at the British Library"] },
   "items": [
     {
-      "id": "https://github.com/adi-keinan-schoonbaert/3D/edit/main/iiif-manifests/scene1/page/p1/1",
+      "id": "https://example.org/iiif/scene1/page/p1/1",
       "type": "Scene",
       "label": { "en": ["A Scene"] },
       "items": [
         {
-          "id": "https://github.com/adi-keinan-schoonbaert/3D/edit/main/iiif-manifests/scene1/page/p1/1",
+          "id": "https://example.org/iiif/scene1/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://github.com/adi-keinan-schoonbaert/3D/edit/main/iiif-manifests/anno1",
+              "id": "https://example.org/iiif/3d/anno1",
               "type": "Annotation",
               "motivation": ["painting"],
               "body": {
-                "id": "https://github.com/adi-keinan-schoonbaert/3D/main/assets/oracle_bone_or_76941595.glb",
+                "id": "https://adi-keinan-schoonbaert.github.io/3D/assets/oracle_bone_or_76941595.glb",
                 "type": "Model",
                 "format": "model/gltf-binary"
               },
-              "target": "https://github.com/adi-keinan-schoonbaert/3D/edit/main/iiif-manifests/scene1/page/p1/1"
+              "target": "https://example.org/iiif/scene1/page/p1/1"
             }
           ]
         }
