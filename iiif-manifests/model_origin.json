@@ -3,7 +3,7 @@
   "id": "https://github.com/adi-keinan-schoonbaert/3D/blob/main/iiif-manifests/model_origin.json",
   "type": "Manifest",
   "label": { "en": ["Oracle Bone"] },
-  "summary": { "en": [This is a model of an Oracle Bone. Viewer should render the model at the scene origin, and then viewer should add default lighting and camera"] },
+  "summary": { "en": ["This is a model of an Oracle Bone. Viewer should render the model at the scene origin, and then viewer should add default lighting and camera"] },
   "items": [
     {
       "id": "https://github.com/adi-keinan-schoonbaert/3D/blob/main/iiif-manifests/scene1/page/p1/1",
