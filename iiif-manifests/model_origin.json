@@ -19,7 +19,7 @@
               "type": "Annotation",
               "motivation": ["painting"],
               "body": {
-                "id": "https://github.com/adi-keinan-schoonbaert/3D/blob/main/assets/oracle_bone_or_76941595.glb",
+                "id": "https://adi-keinan-schoonbaert.github.io/3D/blob/main/assets/oracle_bone_or_76941595.glb",
                 "type": "Model",
                 "format": "model/gltf-binary"
               },
