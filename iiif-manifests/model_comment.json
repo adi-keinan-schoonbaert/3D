@@ -1,0 +1,87 @@
+{
+  "@context": "http://iiif.io/api/presentation/4/context.json",
+  "id": "https://example.org/iiif/3d/model_comment.json",
+  "type": "Manifest",
+  "label": { "en": ["Single Model with Comment Annotations"] },
+  "summary": { "en": ["Viewer should render the model at the scene origin and two comment annotations."] },
+  "items": [
+    {
+      "id": "https://example.org/iiif/scene1/page/p1/1",
+      "type": "Scene",
+      "label": { "en": ["A Scene"] },
+      "items": [
+        {
+          "id": "https://example.org/iiif/scene1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/3d/anno1",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://adi-keinan-schoonbaert.github.io/3D/assets/oracle_bone_or_76941595.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": "https://example.org/iiif/scene1/page/p1/1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/scene1/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/3d/anno2",
+              "type": "Annotation",
+              "motivation": ["commenting"],
+              "bodyValue": "Glove",
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1/page/p1/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 1.075,
+                    "y": 1.894,
+                    "z": 0.204
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno3",
+              "type": "Annotation",
+              "motivation": ["commenting"],
+              "bodyValue": "Helmet",
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1/page/p1/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.006,
+                    "y": 3.498,
+                    "z": 0.703
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
