@@ -29,58 +29,78 @@
         }
       ],
       "annotations": [
-        {
-          "id": "https://example.org/iiif/scene1/page/p2/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/iiif/3d/anno2",
-              "type": "Annotation",
-              "motivation": ["commenting"],
-              "bodyValue": "Glove",
-              "target": {
-                "type": "SpecificResource",
-                "source": [
-                  {
-                    "id": "https://example.org/iiif/scene1/page/p1/1",
-                    "type": "Scene"
-                  }
-                ],
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": 1.075,
-                    "y": 1.894,
-                    "z": 0.204
-                  }
-                ]
-              }
-            },
-            {
-              "id": "https://example.org/iiif/3d/anno3",
-              "type": "Annotation",
-              "motivation": ["commenting"],
-              "bodyValue": "Helmet",
-              "target": {
-                "type": "SpecificResource",
-                "source": [
-                  {
-                    "id": "https://example.org/iiif/scene1/page/p1/1",
-                    "type": "Scene"
-                  }
-                ],
-                "selector": [
-                  {
-                    "type": "PointSelector",
-                    "x": 0.006,
-                    "y": 3.498,
-                    "z": 0.703
-                  }
-                ]
-              }
-            }
-          ]
-        }
+		{
+		  "position": {
+			"x": 0.10203888382073281,
+			"y": 1.7006808491960508,
+			"z": 0.2471718535526793
+		  },
+		  "normal": {
+			"x": -0.3651605787375468,
+			"y": -0.39914498633028306,
+			"z": -0.8410356898630748
+		  },
+		  "cameraPosition": {
+			"x": -4.552242273788593,
+			"y": 3.432574278846616,
+			"z": 10.273101934574232
+		  },
+		  "cameraTarget": {
+			"x": -0.25813714989706793,
+			"y": 1.6911859040497625,
+			"z": 0.07426720832293815
+		  },
+		  "label": "Label",
+		  "description": "Bone Label 1595"
+		},
+		{
+		  "position": {
+			"x": 0.1247873815120433,
+			"y": 3.1107385018377034,
+			"z": 0.4901593168451325
+		  },
+		  "normal": {
+			"x": -0.4151035796194795,
+			"y": 0.06657743220819072,
+			"z": -0.9073348134551316
+		  },
+		  "cameraPosition": {
+			"x": -2.2550669440980036,
+			"y": 2.6457176118967123,
+			"z": 6.405682751907044
+		  },
+		  "cameraTarget": {
+			"x": -0.25813714989706793,
+			"y": 1.6911859040497625,
+			"z": 0.07426720832293815
+		  },
+		  "label": "Text",
+		  "description": "\"Astronauts will visit in 2025\""
+		},
+		{
+		  "position": {
+			"x": -0.10805168980293983,
+			"y": 1.0643269686653924,
+			"z": 0.15252844575022942
+		  },
+		  "normal": {
+			"x": -0.3012908755798104,
+			"y": -0.31915717400707655,
+			"z": -0.8985335311340183
+		  },
+		  "cameraPosition": {
+			"x": -4.070355757201005,
+			"y": 3.258025284521394,
+			"z": 5.365551156073231
+		  },
+		  "cameraTarget": {
+			"x": -0.25813714989706793,
+			"y": 1.6911859040497625,
+			"z": 0.07426720832293815
+		  },
+		  "label": "Bone",
+		  "description": "This is not an astronaut's bone"
+		}
       ]
     }
   ]
