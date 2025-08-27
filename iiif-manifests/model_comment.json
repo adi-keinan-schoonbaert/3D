@@ -37,7 +37,7 @@
               "id": "https://example.org/iiif/3d/anno2",
               "type": "Annotation",
               "motivation": ["commenting"],
-              "bodyValue": "Glove",
+              "bodyValue": "Label",
               "target": {
                 "type": "SpecificResource",
                 "source": [
@@ -49,9 +49,9 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 1.075,
-                    "y": 1.894,
-                    "z": 0.204
+                    "x": 0.10095382279926288,
+                    "y": 1.6599514712709496,
+                    "z": 0.24705884837231296
                   }
                 ]
               }
