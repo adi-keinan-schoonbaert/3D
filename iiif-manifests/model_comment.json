@@ -60,7 +60,7 @@
               "id": "https://example.org/iiif/3d/anno3",
               "type": "Annotation",
               "motivation": ["commenting"],
-              "bodyValue": "Helmet",
+              "bodyValue": "4 Squares Character",
               "target": {
                 "type": "SpecificResource",
                 "source": [
@@ -72,9 +72,9 @@
                 "selector": [
                   {
                     "type": "PointSelector",
-                    "x": 0.006,
-                    "y": 3.498,
-                    "z": 0.703
+                    "x": 0.5073534161700274,
+                    "y": 2.3863329711263246,
+                    "z": 0.2984247363611167
                   }
                 ]
               }
