@@ -28,43 +28,60 @@
           ]
         }
       ],
-     
-	  "annotations": [
-		{
-		  "position": {
-			"x": 0.11480385809854252,
-			"y": 1.664962006721426,
-			"z": 0.25482727517824216
-		  },
-		  "normal": {
-			"x": -0.4041081069327935,
-			"y": -0.41000970766370065,
-			"z": -0.8176727203060653
-		  },
-		  "cameraPosition": {
-			"x": -2.777178508629625,
-			"y": 2.0956796272315277,
-			"z": 1.7529029365035003
-		  },
-		  "cameraTarget": {
-			"x": -0.25813714989706793,
-			"y": 1.6911859040497625,
-			"z": 0.07426720832293815
-		  },
-		  "label": "Label",
-		  "description": "Bone Label: 1595"
-		}
-	  ],
-	  "scene": {
-		"ambientLightIntensity": 0,
-		"environmentMap": "warehouse",
-		"rotation": [
-		  0,
-		  0,
-		  0
-		]
-	  }
-	  
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/scene1/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/3d/anno2",
+              "type": "Annotation",
+              "motivation": ["commenting"],
+              "bodyValue": "Glove",
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1/page/p1/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 1.075,
+                    "y": 1.894,
+                    "z": 0.204
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno3",
+              "type": "Annotation",
+              "motivation": ["commenting"],
+              "bodyValue": "Helmet",
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1/page/p1/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.006,
+                    "y": 3.498,
+                    "z": 0.703
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
