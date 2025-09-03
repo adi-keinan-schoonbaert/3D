@@ -5,4 +5,5 @@ Testing the new IIIF spec for 3D models using British Library's 3D models:
 - Jane Austen's Desk (open view 2), Add 86841 [no texture in the model]
 - Lacquer Box, Or 6682 [no texture in the model]
 - Oracle Bone, Or 7694/1595
+- Pen Box, Foster 926
 - Qur'an Case, Or 13706 B
