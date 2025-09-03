@@ -1,0 +1,33 @@
+{
+  "@context": "http://iiif.io/api/presentation/4/context.json",
+  "id": "https://example.org/iiif/3d/model_origin.json",
+  "type": "Manifest",
+  "label": { "en": ["Jane Austen Desk (open view 1), Add 86841"] },
+  "summary": { "en": ["A wooden writing desk used by Jane Austen which was given to her by her father in 1794"] },
+  "items": [
+    {
+      "id": "https://example.org/iiif/scene1/page/p1/1",
+      "type": "Scene",
+      "label": { "en": ["A Scene"] },
+      "items": [
+        {
+          "id": "https://example.org/iiif/scene1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/3d/anno1",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://adi-keinan-schoonbaert.github.io/3D/assets/jane_austen_desk_open_view_1_add_86841.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": "https://example.org/iiif/scene1/page/p1/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
