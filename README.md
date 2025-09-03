@@ -19,4 +19,4 @@ Testing the new IIIF spec for 3D models using British Library's 3D models:
 - https://adi-keinan-schoonbaert.github.io/3D/iiif-manifests/Oracle_Bone_Or_7694-1595/model_transform_translate_scale_position.json 
 - https://adi-keinan-schoonbaert.github.io/3D/iiif-manifests/Oracle_Bone_Or_7694-1595/model_comment.json
 
-Copy-paste the manifest URL into Manifestival to view it: https://morphosource.github.io/manifestival/
+Copy-paste the manifest URL into Manifestival to view it in different IIIF viewers: https://morphosource.github.io/manifestival/
