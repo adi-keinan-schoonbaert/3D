@@ -1,4 +1,4 @@
-# 3D
+## 3D Repo Description
 Testing the new IIIF spec for 3D models using British Library's 3D models:
 - Cover of Batak Pustaha Manuscript, Or 11761
 - Jane Austen's Desk (open view 1), Add 86841
@@ -8,7 +8,7 @@ Testing the new IIIF spec for 3D models using British Library's 3D models:
 - Pen Box, Foster 926
 - Qur'an Case, Or 13706 B
 
-# List of Manifests:
+## List of Manifests
 - https://adi-keinan-schoonbaert.github.io/3D/iiif-manifests/Cover_of_Batak_Pustaha_Manuscript_Or_11761/model_origin.json
 - https://adi-keinan-schoonbaert.github.io/3D/iiif-manifests/Jane_Austen_Desk_open_view_1_Add_86841/model_origin.json
 - https://adi-keinan-schoonbaert.github.io/3D/iiif-manifests/Lacquer_Box_Or_6682/model_origin.json
